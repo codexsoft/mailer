@@ -1,0 +1,21 @@
+{
+    "name": "codexsoft/mailer",
+    "license": "MIT",
+    "description": "Wrapper over SwiftMailer",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4",
+        "swiftmailer/swiftmailer": "^5.0",
+        "ext-mbstring": "*",
+        "ext-imap": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Mailer\\": "src/"
+        }
+    }
+}
